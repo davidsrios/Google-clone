@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+header {
+    width: 100%;
+    height: 60px;
+    padding: 14px 7px;
+}
+header nav {
+    display: flex;
+    justify-content: flex-end;  
+}
+header nav .nav-right-section {
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav .nav-right-section a {
+    margin-right: 10px;
+    color: #5f6368;
+    font-size: 13px;
+}
+nav .nav-right-section img {
+    border-radius: 50%;
+    margin-left: 10px;
+    width: 32px;
+    height: 32px;
+}
+.mail-button {
+    margin-right: 15px;
+}
+main {
+    margin-top: 64px;
+    text-align: center;
+}
+main .main-logo {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+main .main-logo img {
+    width: 272px;
+}
+main .main-input {
+    width: 584px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+main .main-input-container {
+    width: 582px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .main-input input {
+    width: 493px;
+    height: 46px;
+    border: none;
+    outline: none;
+}
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px 0 #20212446;
+    border-color: #dfe1e500;
+}
+/* main .main-input .search-icon {
+    color: #9aa0a6;
+} */
+main .main-input .search-icon {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 14px;
+    height: 14px;
+    margin: 0px 13px 0px 14px;
+}
+main .main-input .mic-icon {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/712px-Google_mic.svg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    margin: 0px 13px 0px 14px;
+}
+main .main-buttons {
+    width: 584px;
+    margin: 0 auto;
+}
+main .main-buttons div {
+    display: inline-block;
+}
+main .main-buttons button {
+    height: 36px;
+    background-color: #f8f9fa;
+    border: none;
+    font-size: 14px;
+    color: #3c4043;
+    border-radius: 4px;
+    padding: 0 16px;
+    margin: 11px 5px;
+}
+main .main-buttons button:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+main .main-buttons .offered-by {
+    margin: 18px;
+    font-size: small;
+}
+main .main-buttons .offered-by a {
+    font-size: small;
+}
+footer {
+    width: 100%;
+    height: 97px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+footer ul {
+    margin: 0px 20px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+footer .footer-left {
+    justify-self: left;
+    grid-row-start: 2;
+}
+footer .footer-right {
+    justify-self: right;
+    grid-row-start: 2;
+}
+footer ul li a {
+    padding: 15px;
+    color: rgba(0,0,0,.54);   
+}
+footer .footer-location {
+    height: 100%;
+    align-content: center;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    padding: 0 16px;
+    margin: 0;
+    box-shadow: inset 0 -1px 0 #dadce0;
+}
+footer .footer-location li {
+    position: relative;
+    top: 30%;
+}
+footer .footer-location li a {
+    font-size: 15px;
+}
+
+/* <ul class="footer-location" style="
+    height: 100%;
+    align-content: center;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    /* border-bottom: 1px solid #dadce0; */
+    padding: 0 20px;
+    /* font-size: 15px; */
+    box-shadow: inset -1px -4px 0 #665235;
+">
+            <li style="
+    position: relative;
+    top: 25%;
+"><a href="" style="
+    font-size: 15px;
+    /* margin-top: 15px; */
+">Guatemala</a></li>
+        </ul> */
